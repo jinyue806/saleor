@@ -45,6 +45,8 @@ export const ProductList: React.StatelessComponent<ProductListProps> = ({
             );
             return (
               <ProductListCard
+                currentTab={0}
+                filtersList={[]}
                 onAdd={() => navigate(productAddUrl)}
                 disabled={loading}
                 products={
