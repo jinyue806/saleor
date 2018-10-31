@@ -71,6 +71,9 @@ export const OrderList: React.StatelessComponent<OrderListProps> = ({
                           onPreviousPage={loadPreviousPage}
                           onRowClick={id => () =>
                             navigate(orderUrl(encodeURIComponent(id)))}
+                          onAllProducts={() => undefined}
+                          onToFulfill={() => undefined}
+                          onToCapture={() => undefined}
                         />
                       );
                     }}
