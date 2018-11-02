@@ -62,6 +62,7 @@ export const ProductList: React.StatelessComponent<ProductListProps> = ({
                 onAllProducts={() => undefined}
                 onAvailable={() => undefined}
                 onOfStock={() => undefined}
+                onCustomFilter={() => undefined}
               />
             );
           }}
